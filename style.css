@@ -575,6 +575,9 @@ header .navbar :where(#menu-close-button, #menu-open-button) {
 /* Responsive design for mobile devices in 640px width */
 
 @media screen and (max-width: 640px) {
+  .hero-section .hero-image-wrapper {
+    max-width: 70%;
+  }
   .gallery-section .gallery-list .gallery-item{
     width: 100%;
   }
